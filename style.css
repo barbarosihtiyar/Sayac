@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family:sans-serif;
+}
+#dakika,
+#saniye{
+    font-size: 4rem;
+    letter-spacing: 5px;
+    
+}
+
+.sayacyazisi{
+    width: 50%;
+    height: 40%;
+    margin: 5rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+form{
+    display: flex;
+    justify-content:center
+}
+form label{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+#sayacdakika,
+#sayacsaniye{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+#baslat,
+#sifirla{
+    cursor: pointer;
+    padding: 0.5rem;
+    border: none;
+    background-color: rgb(184, 63, 63);
+    border-radius: 10px;
+}
+#baslat:hover{
+    background-color: rgb(63, 184, 89);
+}
+#sifirla:hover{
+    background-color: rgb(63, 184, 89);
+}
